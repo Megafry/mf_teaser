@@ -1,0 +1,29 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+
+  <f:comment>
+    <f:debug>{_all}</f:debug>
+  </f:comment>
+
+    <f:link.typolink parameter="{data.header_link}" target="_blank">
+        <div class="thumbnail" >
+            <f:comment>
+              <!-- for multiple images-->
+                <f:for each="{files}" as="file">
+                    <f:image image="{file}"  width="750" />
+                    <f:if condition="{file.properties.description}">
+                        <figcaption>{file.properties.description}</figcaption>
+                    </f:if>
+                </f:for>
+            </f:comment>
+            <f:if condition="{files.0}">
+                <f:image image="{files.0}" width="750" />
+            </f:if>
+            <div class="caption" >
+                <h2>{data.header}</h2>
+                <p>{data.bodytext}</p>
+                <div class="btn btn-primary btn-block">More</div>
+
+            </div>
+        </div>
+    </f:link.typolink>
+</html>

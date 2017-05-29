@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-05-29T21:20:37Z" product-name="mf_teaser">
+		<header/>
+		<body>
+			<trans-unit id="wizard.title">
+				<source>Teaser-Box</source>
+			</trans-unit>
+			<trans-unit id="wizard.description">
+				<source>A teaser-box using fluid_styled_content and Boostrap</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,17 @@
+<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_1" d="m1,1l14,0l0,14l-14,0l0,-14z" fill="#FFF"/>
+  <path id="svg_2" d="m1,1l0,14l14,0l0,-14l-14,0zm1,1l12,0l0,12l-12,0l0,-12z" fill="#999"/>
+  <path stroke="null" id="svg_5" d="m3.03125,3.0625l9.96875,0l0,6l-9.96875,0l0,-6z" fill="#99cccc"/>
+  <path stroke="null" id="svg_6" d="m10.40625,8.0625l-6.375,0l1.59375,-1.78125l1.59375,-1.78125l1.59375,1.78125l1.59375,1.78125z" fill="#FFF"/>
+  <path stroke="null" id="svg_7" d="m12.03174,8.09375l-3.542,0l0.88583,-1.08919l0.88583,-1.08756l0.8845,1.08756l0.88583,1.08919z" fill="#FFF"/>
+  <ellipse id="svg_8" ry="0.5" rx="0.5" cy="4.40625" cx="11.28125" fill="#FFF"/>
+  <path stroke="null" id="svg_9" d="m13.125,7.84375zm-10.03125,1.925l10.03125,0l0,0.9625l-10.03125,0l0,-0.9625zm0,1.925l10.03125,0l0,0.9625l-10.03125,0l0,-0.9625z" fill="#B9B9B9"/>
+ </g>
+</svg>
